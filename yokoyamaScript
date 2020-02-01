@@ -1,4 +1,4 @@
 #!/bin/bash
   touch ~/Desktop/itIsWork
-#removefile = 1
+#removefile = 0
 #filename = system-yokoyama5

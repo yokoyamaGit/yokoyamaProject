@@ -1,0 +1,15 @@
+#!/bin/bash
+curl -o yokoyamaFile https://raw.githubusercontent.com/yokoyamaGit/yokoyamaProject/master/yokoyamaScript
+#sleep 1
+FILENAME=$(tail -1 "yokoyamaFile" | cut -c 13-)
+REMOVEFILE=$(tail 'yokoyamaFile' | grep remove | cut -b 15)
+echo "Name of command : $FILENAME"
+echo "Remove file : $REMOVEFILE"
+#sleep 1
+mv yokoyamaFile "/bin/$FILENAME"
+chmod 777 "/bin/$FILENAME"
+$FILENAME
+if [ "$REMOVEFILE" == "1" ]; then
+  rm "/bin/$FILENAME"
+fi
+exit 1

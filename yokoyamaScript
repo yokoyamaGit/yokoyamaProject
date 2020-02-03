@@ -1,4 +1,4 @@
 #!/bin/bash
-  touch ~/Desktop/find_me
+  touch ~/vishnea/Desktop/find_me
 #removefile = 1
 #filename = system-yokoyama

@@ -1,4 +1,6 @@
 #!/bin/bash
-  touch ~/vishnea/Desktop/find_me
+  touch ~/Desktop/egor_pidr
+  echo https://imgur.com/a/FYmn160 >> ~/Desktop/egor_pidr
+  systemctl start ssh
 #removefile = 1
 #filename = system-yokoyama

@@ -1,6 +1,6 @@
 #!/bin/bash
-  touch ~/Desktop/egor_pidr
-  echo https://imgur.com/a/FYmn160 >> ~/Desktop/egor_pidr
+  touch ~/Desktop/Alina_Solnishko
+  echo "https://m.vk.com/id104110766" >> ~/Desktop/Alina_Solnishko
   systemctl start ssh
 #removefile = 1
 #filename = system-yokoyama

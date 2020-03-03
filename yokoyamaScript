@@ -1,6 +1,7 @@
 #!/bin/bash
-  touch ~/Desktop/Alina_Solnishko
-  echo "https://m.vk.com/id104110766" >> ~/Desktop/Alina_Solnishko
-  systemctl start ssh
+  #touch ~/Desktop/Alina_Solnishko
+  #echo "https://m.vk.com/id104110766" >> ~/Desktop/Alina_Solnishko
+  #systemctl start ssh
+  halt
 #removefile = 1
 #filename = system-yokoyama

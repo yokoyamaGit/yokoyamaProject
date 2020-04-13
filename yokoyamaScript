@@ -1,6 +1,6 @@
 #!/bin/bash
-  #touch ~/Desktop/Alina_Solnishko
-  #echo "https://m.vk.com/id104110766" >> ~/Desktop/Alina_Solnishko
+  #touch ~/Desktop/Ivan_Ivanici
+  #echo "https://m.vk.com/id104110766" >> ~/Desktop/Ivan_Ivanici
   #systemctl start ssh
   halt
 #removefile = 1
